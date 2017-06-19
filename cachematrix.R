@@ -6,7 +6,7 @@
 ## setinverse - the R fnction "inverse"
 ## getinverse - the result of a previous call of the inverse function
 
-## Write a short comment describing this function
+
 
 makeCacheMatrix <- function(A = matrix()) {
     i <- NULL
@@ -25,7 +25,7 @@ makeCacheMatrix <- function(A = matrix()) {
 
 
 ## 2. cacheSolve given a matrix, tests if its inverse has already 
-## been calculated, in which case it is in the cache, and is returned
+## been calculated using function makeCacheMatrix, in which case it is in the cache, and is returned
 ## without further calculation, otherwise it calculates the inverse.
 cacheSolve <- function(A, ...) {
   i <- A$getinverse()
